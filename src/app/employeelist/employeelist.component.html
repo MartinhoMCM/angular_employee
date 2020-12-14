@@ -1,0 +1,7 @@
+<div style="text-align: start;">
+
+    <h1>Employee List</h1>
+        <ul *ngFor="let employee of employees; index as i" style="list-style-type: none;" >
+            <li>{{i+1}} Nome: {{employee.name}}</li>
+        </ul>
+</div>
